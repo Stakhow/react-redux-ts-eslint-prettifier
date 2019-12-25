@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "jsx-quotes": [
+      1,
+      "prefer-double"
+    ],
+    "semi": "error",
+    "no-unassigned-import": 0,
+    "no-named-as-default-member": 0,
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 1, "maxBOF": 0 }],
+    "namespace": 0,
+    "named": 0,
+    "eqeqeq": "error",
+    "prettier/prettier": ["error", {
+      "parser": "typescript"
+    }],
+    "security/detect-object-injection": 0,
+    "security/detect-non-literal-fs-filename": 0
+  },
+  "plugins": [
+    "prettier"
+  ]
+}
